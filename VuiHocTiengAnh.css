@@ -2,6 +2,9 @@
 	margin: 0px;
 	padding:0px;
 }
+body{
+	background-color: #F4F3F1;
+}
 .navbar{
 	background-image:  linear-gradient(#86E0E2,#C0E5FA) !important;
 }
@@ -21,7 +24,7 @@
 	bottom: 0;
 	background-color: #E0E0E0;
 	width: 100%;
-	height: 15%;
+	height: 10%;
 }
 .btn-controller{
 
@@ -56,13 +59,13 @@
 .content-img img{
 	margin-top: auto;
 	margin-bottom: auto;
-	width:100%;
-  	height: auto;
+	width:50%;
+	height: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-    margin: auto;
-   
+	margin: auto;
+
 }
 @media only screen and (max-width:750px) 
 {
@@ -97,5 +100,13 @@
 	}
 	.content-img{
 		padding-bottom: 50%;
+	}
+	.content-img img{
+		width: 100%;
+	}
+}
+@media only screen  and (min-width: 751px)  and (max-width:1600px) {
+	.content-img img{
+		width: 70%;
 	}
 }
