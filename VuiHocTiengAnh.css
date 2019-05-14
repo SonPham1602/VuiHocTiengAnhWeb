@@ -1,3 +1,7 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
 .navbar{
 	background-image:  linear-gradient(#86E0E2,#C0E5FA) !important;
 }
@@ -28,6 +32,11 @@
 	width: 70px;
 	height: 70px;
 }
+.nav-item a img{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
 .footer-controller{
 	display: flex;
 	justify-content: center;
@@ -41,9 +50,23 @@
 
 }
 .content-img img{
-	max-height:100% 
+	margin-top: auto;
+	margin-bottom: auto;
+	width:100%;
   	height: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+    margin: auto;
+   
+}
+@media only screen and (max-width:750px) 
+{
+	p{
+		font-size:120%;
+	}
+
+	a{
+		font-size:1.5rem;
+	}
 }
