@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 	<title>VuiHocTiengAnh</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
@@ -17,7 +17,7 @@
 <body>
 	<div class="container-fluid">
 		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-			<div class="container-fluid">
+			<div class="container-fluid ">
 				<a class="navbar-brand" href="">
 
 				</a>
@@ -40,76 +40,80 @@
 						</li>
 						<li class="nav-item" >
 							<a href="" class="nav-link">
-							<img src="image\button\Test.png">
+								<img src="image\button\Test.png">
 							Test</a>
 						</li>
 						<li class="nav-item" >
 							<a href="" class="nav-link">
 								<img src="image\button\game.png">Game</a>
-						</li>
-						<li class="nav-item" >
-							<a href="" class="nav-link">
-								<img src="image\button\Settings.png">Setting</a>
-						</li>
-						<li class="nav-item" >
-							<a href="" class="nav-link">
-								<img src="image\button\Help.png">About</a>
-						</li>
-					</ul>
+							</li>
+							<li class="nav-item" >
+								<a href="" class="nav-link">
+									<img src="image\button\Settings.png">Setting</a>
+								</li>
+								<li class="nav-item" >
+									<a href="" class="nav-link">
+										<img src="image\button\Help.png">About</a>
+									</li>
+								</ul>
 
-				</div>		
+							</div>		
 
-			</div>
+						</div>
 
 
-		</nav>
-		<div class="">
-			<div class="Learn panel">
-				<div class="menu-controller-left">
-					<label>
-						Select Unit
-					</label><br>
-					<select>			
-					</select><br>
-					<label>
-						Select Voice
-					</label><br>
-					<select>			
-					</select><br>
-					<label>
-						Select Volume
-					</label><br>
-					<input type="range" min="1" max="100" value="50" class="slider" id="slider-volume"><br>
-					<label>
-						Select Speed
-					</label><br>
-					<input type="range" min="1" max="100" value="50" class="slider" id="slider-Speed">
+					</nav>
+					<div class="">
+						<div class="Learn panel ">
+							<div class="Content-top-div">
+								<div class="menu-controller-left">
+									<label>
+										Select Unit
+									</label><br>
+									<select class="test">			
+									</select><br>
+									<label>
+										Select Voice
+									</label><br>
+									<select>			
+									</select><br>
+									<label>
+										Select Volume
+									</label><br>
+									<input type="range" min="1" max="100" value="50" class="slider" id="slider-volume"><br>
+									<label>
+										Select Speed
+									</label><br>
+									<input type="range" min="1" max="100" value="50" class="slider" id="slider-Speed">
 
+								</div>
+								<div class="content-img ">
+									<img  width="100%" height="auto" align="center" valign="center" src="image\Learn\background.jpg" id="ShowImage">
+								</div>
+							</div>
+
+
+							<div class="footer-controller">
+								<button class="btn-controller">
+									<img src="image/button/Learn/Left.png">
+								</button>
+								<button class="btn-controller">
+									<img src="image/button/Learn/Audio.png">
+								</button>
+								<button class="btn-controller">
+									<img src="image/button/Learn/Right.png">
+								</button>
+
+
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="content-img">
-					<img  width="100%" height="auto" align="center" valign="center" src="image\Learn\background.jpg" id="ShowImage">
-				</div>
-				<div class="footer-controller">
-					<button class="btn-controller">
-						<img src="image/button/Learn/Left.png">
-					</button>
-					<button class="btn-controller">
-						<img src="image/button/Learn/Audio.png">
-					</button>
-					<button class="btn-controller">
-						<img src="image/button/Learn/Right.png">
-					</button>
 
+				<div class="Homepage panel"></div>
 
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="Homepage panel"></div>
-	
-	<div class="Test panel"></div>
-	<div class="Setting panel"></div>
+				<div class="Test panel"></div>
+				<div class="Setting panel"></div>
 
-</body>
-</html>
+			</body>
+			</html>
