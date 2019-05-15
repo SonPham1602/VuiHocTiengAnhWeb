@@ -33,7 +33,11 @@ body{
 	height: 70px;
 	border: none;
 	background-color: transparent;
+	animation-duration: 0.2s;
 
+}
+.btn-controller:hover img{
+	transform: scale(1.1);
 }
 .btn-controller img{
 	width: 70px;
