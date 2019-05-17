@@ -17,7 +17,7 @@
 <body>
 	<div class="container-fluid">
 		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-			<div class="container-fluid ">
+			<div class="container-fluid grid-container">
 				<a class="navbar-brand" href="">
 
 				</a>
@@ -29,7 +29,10 @@
 						<li class="nav-item" >
 							<a href="" class="nav-link">
 								<img src="image\button\Home.png">
-								Home
+								<label>
+									Home
+								</label>
+								
 							</a>
 						</li>
 						<li class="nav-item" >
@@ -66,29 +69,41 @@
 					<div class="">
 						<div class="Learn panel ">
 							<div class="Content-top-div">
-								<div class="menu-controller-left">
-									<label>
-										Select Unit
-									</label><br>
-									<select class="test">			
-									</select><br>
-									<label>
-										Select Voice
-									</label><br>
-									<select>			
-									</select><br>
-									<label>
-										Select Volume
-									</label><br>
-									<input type="range" min="1" max="100" value="50" class="slider" id="slider-volume"><br>
-									<label>
-										Select Speed
-									</label><br>
-									<input type="range" min="1" max="100" value="50" class="slider" id="slider-Speed">
-
-								</div>
+								
 								<div class="content-img ">
 									<img  width="100%" height="auto" align="center" valign="center" src="image\Learn\background.jpg" id="ShowImage">
+								</div>
+
+								<div class="menu-controller-left">
+									<div>
+										<label>
+											Select Unit
+										</label><br>
+										<select class="test">
+										</select><br>	
+									</div>
+
+									<div>
+										<label>
+											Select Voice
+										</label><br>
+										<select>			
+										</select><br>
+									</div>
+									<div>
+										<label>
+											Select Volume
+										</label><br>
+										<input type="range" min="1" max="100" value="50" class="slider" id="slider-volume"><br>
+									</div>
+									<div>
+										<label>
+											Select Speed
+										</label><br>
+										<input type="range" min="1" max="100" value="50" class="slider" id="slider-Speed">
+
+									</div>
+									
 								</div>
 							</div>
 
@@ -111,7 +126,31 @@
 				<div class="Homepage panel"></div>
 
 				<div class="Test panel"></div>
-				<div class="Setting panel"></div>
+				<div class="Setting panel">
+					<p>Color</p>
+					<ul class="select-color">
+						<li>
+							<button id="color-1" class="btn-color">
+								
+							</button>
+						</li>
+						<li>
+							<button id="color-2" class="btn-color">
+								
+							</button>
+						</li>
+						<li>
+							<button id="color-3"  class="btn-color">
+								
+							</button>
+						</li>
+						<li>
+							<button id="color-4" class="btn-color">
+								
+							</button>
+						</li>
+					</ul>
+				</div>
 
 			</body>
 			</html>
